@@ -9,7 +9,6 @@ const BlogSchema = new mongoose.Schema({
   description: {
     type: String,
     trim: true,
-    unique: true,
   },
 });
 const blogModel = new mongoose.model("BlogsList", BlogSchema);
